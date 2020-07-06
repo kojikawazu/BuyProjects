@@ -57,7 +57,7 @@ public class BuyCustomHome_Model extends BuyCustom_Model {
 
         // DEBUG用
         //_activity.deleteDatabase("buylist_data.db");
-        
+
         _activity.setContentView(R.layout.activity_buy_custom);
         _database = new BuyDatabaseManager( _activity );
         _select_data = new Select_data();
