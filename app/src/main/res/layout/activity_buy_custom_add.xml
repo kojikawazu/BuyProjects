@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    //--title--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="@string/buy_custom_add_title"
+        android:textSize="30sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        //--商品名--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/menu_custom_add_name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_buyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        //--ジャンル--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/menu_custom_add_class"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sp_buy_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        //--個数--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/menu_custom_add_price"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_buyPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+
+        //--個数--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/menu_custom_add_number"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_buyNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+
+        //--商品の説明--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/menu_custom_add_desc"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etDesc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_menu_custom_add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/menu_custom_add_btn" />
+
+
+</LinearLayout>

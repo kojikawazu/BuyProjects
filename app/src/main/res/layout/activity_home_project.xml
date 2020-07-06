@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    //-- 説明文 --
+    <TextView
+        android:text="@string/tv_home_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="15sp"
+        android:background="#EEEEEE"
+        />
+
+    //-- リスト場所 --
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvProgList"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_home_footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:background="#EEEEEE"/>
+
+</LinearLayout>

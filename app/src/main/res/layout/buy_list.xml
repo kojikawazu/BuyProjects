@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    //--商品名--
+    <TextView
+        android:id="@+id/lvBuyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:textSize="18sp"
+        android:text="独習C++"
+        />
+
+    <TextView
+        android:id="@+id/lvBuyID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:visibility="invisible"
+        />
+
+    //-------------------------------------------------
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginBottom="5dp"
+        >
+        <TextView
+            android:id="@+id/lvBuySelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="false"
+            android:visibility="invisible"
+            />
+
+        //--ジャンル---------------------------------
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:text="登録日:"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/lvBuyDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018/1/1"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+    //----
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        >
+
+        //--ジャンル---------------------------------
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:text="ジャンル:"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/lvBuyClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="本、雑誌"
+            android:textSize="20sp"
+            />
+
+        //--ジャンル---------------------------------
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:text="価格:"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/lvBuyPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="1,000"
+            android:textSize="20sp"
+            />
+
+        //--個数---------------------------------
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="個数:"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/lvBuyNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20sp" />
+        //----------------------------------------
+
+    </LinearLayout>
+
+</LinearLayout>

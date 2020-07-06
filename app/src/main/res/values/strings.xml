@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">購入シミュレーション</string>
+
+    // --home--
+    <string name="tv_home_header">色んなアプリを試し作りしてます。\n選択してください。</string>
+    <string name="tv_home_footer">今日の日付: </string>
+    <string name="__selecter">選択してください。</string>
+
+    <string name="menu_home_context_header">このプログラムを実行しますか？</string>
+    <string name="menu_home_context_yes">はい</string>
+    <string name="menu_home_context_no">いいえ</string>
+
+    <string name="all_select_sql">すべて選択</string>
+    <string name="buy_or_delete">購入or削除</string>
+    //-----------------------------------------------------------------------------------------
+
+    //buy_custom_home
+    <string name="buy_custom_home_title">買いたいものリスト</string>
+
+    <string name="menu_list_options_allselect">すべて表示</string>
+    <string name="menu_list_options_search">検索</string>
+    <string name="menu_list_options_insert">買いたい商品の追加</string>
+    <string name="menu_list_options_history">購入履歴</string>
+
+    <string name="buy_context_number">個数変更</string>
+    <string name="buy_context_desc">商品の説明</string>
+    <string name="buy_context_select">選択or選択解除</string>
+    //-----------------------------------------------------------------------------------------
+
+    //buy_custom_add
+    <string name="buy_custom_add_title">追加商品</string>
+
+    <string name="menu_custom_add_name">商品名</string>
+    <string name="menu_custom_add_class">ジャンル</string>
+    <string name="menu_custom_add_price">価格</string>
+    <string name="menu_custom_add_number">個数</string>
+    <string name="menu_custom_add_desc">商品の説明</string>
+    <string name="menu_custom_add_btn">決定</string>
+
+    //-----------------------------------------------------------------------------------------
+
+    //buy_custom_history
+    <string name="buy_custom_history_title">購入履歴</string>
+
+    //-----------------------------------------------------------------------------------------
+
+    //buy_custom_ok
+    <string name="buy_custom_ok_title">以下の商品を購入しました。</string>
+    <string name="buy_custom_ok_title2">ありがとうございました。</string>
+    <string name="buy_custom_ok_button">買いたいものリストへ戻る</string>
+
+    //-----------------------------------------------------------------------------------------
+
+    /* dialog */
+    <string name="dialog_select_yes">はい</string>
+    <string name="dialog_select_no">いいえ</string>
+
+    // Add_dialog
+    <string name="dialog_add_title">決定</string>
+    <string name="dialog_add_message">これでよろしいですか？</string>
+
+
+    // Buy_or_Delete_dialog
+    <string name="dialog_buyordelete_message">買いますか？削除しますか？</string>
+    <string name="dialog_buyordelete_yes">買う</string>
+    <string name="dialog_buyordelete_no">削除する</string>
+
+    // Desc_dialog
+    <string name="dialog_desc_title">説明</string>
+
+    // FinalAnswer_dialog
+    <string name="dialog_finalanswer_title">要確認</string>
+    <string name="dialog_finalanswer_buy">本当に購入しますか？</string>
+    <string name="dialog_finalanswer_delete">本当に削除しますか？</string>
+
+    // NumUpdate_dialog
+    <string name="dialog_number_title">個数変更</string>
+
+    // Selecting_dialog
+    <string name="dialog_select_title">選択モードON/OFF</string>
+    <string name="dialog_select_message">ジャンル：</string>
+
+</resources>
